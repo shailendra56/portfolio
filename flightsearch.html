@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="assets/images/favicon/favicon.png" rel="icon">-->
+    <title>flightsearch</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand bord-right" href="#">
+                    <!-- <img src="./assets/banner/logo/logo.svg" alt="logo"> -->
+                    <img src="./assets/banner/logo/wiz-change.png" alt="logo" style="width:145px;height: 55px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Flights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Holidays Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cruise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Insurance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Insurance</a>
+                        </li>
+                    </ul>
+                    <form class="next-list">
+                        <ul class="d-flex">
+                            <li><img src="./assets/icons/n1.png" alt="n1"> INR <select name="" id="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select></li>
+                            <li><img src="./assets/icons/n2.png" alt="n2"> <a href="#">Help & Support</a></li>
+                            <li><img src="./assets/icons/n3.png" alt="n3"> <a href="#">Sign in</a></li>
+                            <li><a href="#"><img src="./assets/icons/frame.png" alt="frame"></a></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Form Section-->
+    <section class="form-section mrgt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-sm-12">
+                    <form action="" class="form-iconic">
+                        <div class="form-row__one">
+                            <ul>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Round Trip
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Round Trip
+                                        </label>
+                                    </div>
+                                </li>
+                                <!-- <li><input type="radio"> Round Trip</li>
+                                <li><input type="radio"> Round Trip</li> -->
+                                <li>
+                                    <div class="round-angle">
+                                        <img src="./assets/icons/mans.png" alt="">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>1 Traveller</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="round-angle">
+                                        <img src="./assets/icons/sport.png" alt="">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Economy</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--2nd row-->
+                        <div class="form-row__two">
+                            <div class="row-mod__one">
+                                <ul>
+                                    <li>
+                                        <div class="row-mod__one__cont">
+                                            <img src="./assets/icons/location.png" alt="">
+                                            <span>Living Form</span>
+                                        </div>
+                                        <p><input type="text" class="form-control" name="living"
+                                                placeholder="Indra Gandhi International"></p>
+
+                                    </li>
+                                    <li>
+                                        <img src="./assets/icons/twoside.png" alt="">
+                                    </li>
+                                    <li>
+                                        <div class="row-mod__one__cont">
+                                            <img src="./assets/icons/location.png" alt="">
+                                            <span>Going To</span>
+                                        </div>
+                                        <p><input type="text" class="form-control" name="going"
+                                                placeholder="Indra Gandhi International"></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row-mod__two">
+                                <ul>
+                                    <li>
+                                        <div class="row-mod-asign">
+                                            <h6>Department</h6>
+                                            <p><input type="date" class="form-control" id="date" /></p>
+                                            <!-- 27 Aug 2024 -->
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="row-mod-asign-next">
+                                            <h6>Return</h6>
+                                            <p><input type="date" class="form-control" id="date" /></p>
+                                            <!-- <p>Book Round trip to save extra</p> -->
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-primery">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-lg-2 col-sm-12">
+                    <div class="get__assistant">
+                        <div class="get__assistant__pad">
+                            <div class="get__assistant__img">
+                                <img src="./assets/images/executive.png" alt="executive">
+                            </div>
+                            <div class="get__assistant__cont">
+                                <h6>Get Assistance from our Experts</h6>
+                                <ul>
+                                    <li>Grab exciting deals for<br>
+                                        your dream holiday</li>
+                                    <li>34-hour free
+                                        cancellation policy.</li>
+                                    <li>Quick booking
+                                        confirmation.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="get__assistant_inq">
+                            <p>For Further Inquires</p>
+                            <div class="get__assistant__backpd">
+                                <ul>
+                                    <li><a href="tel:+1 (844) 877-3042">+1 (844) 877-3042</a></li>
+                                    <li><a href="mailto:wizfairtravels.com">info@wizfairtravels.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Flight Informatin-->
+<section class="flight__info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-12">
+                
+            </div>
+            <div class="col-md-9 col-lg-9 col-sm-12">
+
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Footer-->
+    <footer class="footerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-7 col-sm-12">
+                    <div class="footer__first__wbox">
+                        <div class="footer__cont__one">
+                            <ul>
+                                <li><img src="./assets/banner/logo/wiz-change.png" alt="" style="width: 120px;"></li>
+                                <li>
+                                    <h5>Contact Us</h5>
+                                </li>
+                                <li><a href="mailto:wizfairtravels.com">Info@wizfairtravels.com</a></li>
+                                <li><a href="tel:8448773042">+1 (844) 877-3042</a></li>
+                                <li>
+                                    <p>CST# 2157632-40.<br>Fla. Seller of Travel Ref. No. ST44831</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__cont">
+                            <h5>Top Destination</h5>
+                            <ul>
+                                <li><a href="#">Flights to Bali</a></li>
+                                <li><a href="#">Flights to Amsterdam</a></li>
+                                <li><a href="#">Flights to Aruba</a></li>
+                                <li><a href="#">Flights to Toronto</a></li>
+                                <li><a href="#">Flights to Cancun</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <div class="footer__first__wbox__one">
+                        <div class="footer__cont">
+                            <h5>Quick Links</h5>
+                            <ul>
+                                <li><a href="#">Flights</a></li>
+                                <li><a href="#">Hotels</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">CCPA</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__cont">
+                            <h5>Airlines</h5>
+                            <ul>
+                                <li><a href="#">Delta</a></li>
+                                <li><a href="#">American</a></li>
+                                <li><a href="#">United</a></li>
+                                <li><a href="#">Volaris</a></li>
+                                <li><a href="#">Air Canada</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <div class="footer__cont__para">
+                        <p>At Wizfair Travels, we take the stress out of travel planning and make it easy for you to
+                            create unforgettable memories. You can come, customize your preferred packaged deal, and
+                            find solace in one of the most amazing destinations across the globe. Check out the best
+                            packages available today!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer Back-->
+        <div class="footer__background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div class="background__cont">
+                            <p>© 2023 - 2024 Wizfair Travels. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div class="background__cont">
+                            <p>Disclaimer | Terms & Conditions | Privacy Policy | Site Map</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer Back Logo Icons-->
+        <div class="footer__logo__icons"></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
